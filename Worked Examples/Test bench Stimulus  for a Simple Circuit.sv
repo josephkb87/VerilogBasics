@@ -1,7 +1,7 @@
 // Simulation for simple circuit  collection of waveforms
 // We make a module circuit_with_delay_is_instantiated
 // stimulus signals are applied sequentially
-#
+
 module stimcrct;
     reg A,B,C; // reg keyword indicates that values are stored(driven)
     wire x,y;
