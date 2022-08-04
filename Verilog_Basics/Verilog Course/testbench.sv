@@ -17,6 +17,20 @@ module srff_tb();
       S=1;R=0;
       #10 S=0;R=0;
       #10 S=0;R=1;
-      #10 S=0;R=0;
+        #10 S=1;R=0;
+        #10 S=1;R=1;
+        $finish
     end
+    initial
+    begin
+    $dumpfile("BasicDesignExamples.vcd");
+    $dumpvars(1);
+    S=1;R=0;
+    #10 S=0;R=0;
+    #10 S=0;R=1;
+    #10 S=1;R=0;
+    #10 S=1;R=1;
+    $finish
+    end
+
 endmodule

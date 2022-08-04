@@ -1,4 +1,4 @@
-// We will look at how to model Sequential elements
+// We will look at how to model Sequential elements from D Latch, d Flip Flop
 // Using the D Latch to model Sequential elements
 module D-latch (D, Clk, Q);
     input D, Clk;
